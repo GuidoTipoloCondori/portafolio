@@ -1,0 +1,135 @@
+*{
+    background:rgb(37, 36, 36);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+    
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.letra{
+    margin: 6px;
+    /*letra*/
+    font-size: 60px;
+    font-weight: bold;
+
+    background: -webkit-linear-gradient(120deg,
+    hsl(93, 84%, 44%), hsl(56,100%,50%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+.text-area {
+    height: 400px;
+    border-radius: 15px;
+    border: 2px solid yellowgreen;
+    color: white;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+::placeholder { color: green; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    height: 630px;
+    background: rgb(238, 236, 236);
+    background-image: url("/imagenes/misterio.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #3ce013;
+    border-radius: 24px;
+    color: black;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid green;
+    border-radius: 24px;
+    color: rgb(14, 22, 14);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color:green;
+    border: 1px solid green;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar {
+    border: 1px solid green;
+    border-radius: 24px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion {
+    color: #3ce013;
+    font-size:18px;
+}
+
+footer {
+    text-align: center;
+    background: rgb(37, 36, 36);
+    padding: 40px;
+}
+footer img{
+    background-color: transparent;
+    height: 150px;
+}
+footer img:hover{
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1.06);
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+    background-color: transparent;
+}
